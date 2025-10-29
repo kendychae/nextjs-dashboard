@@ -5,6 +5,8 @@ import { lusitana } from '@/app/ui/fonts';
 import { fetchRevenue, fetchLatestInvoices, fetchCardData } from '@/app/lib/data';
 import { Suspense } from 'react';
 
+export const dynamic = 'force-dynamic';
+
 export default async function Page() {
   try {
     const revenue = await fetchRevenue();

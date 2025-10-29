@@ -4,6 +4,8 @@ import { lusitana } from '@/app/ui/fonts';
 import Search from '@/app/ui/search';
 import { Metadata } from 'next';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: 'Customers',
 };
